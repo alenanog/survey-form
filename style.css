@@ -1,0 +1,38 @@
+body {
+	font-family: 'Inconsolata', monospace;
+	display: flex;
+	justify-content: center;
+	background-color: MediumAquamarine;
+}
+
+h1, p {
+	text-align: center;
+}
+ 
+.white {
+	background-color: WhiteSmoke;
+	padding: 15px 25px;
+	border-radius: 5px;
+}
+
+input:required {
+	padding: 3px;
+	margin: 5px;
+}
+
+input[name="name"], [name="age"] {
+	position: relative;
+	left: 8px;
+}
+
+#dropdown {
+	margin-top: 5px;
+}
+
+button {
+	background-color: #59ace0;
+	border: 0px solid;
+	border-radius: 4px;
+	padding: 10px 15px;
+	color: white;
+}
